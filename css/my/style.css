@@ -1,0 +1,66 @@
+#content
+{
+    font-size: larger;
+    padding: 0 15px;
+}
+
+html *, .dropdown-menu, .dropdown-menu li:hover, .form-group, .form-control
+{
+    background-color: black !important;
+    color: whitesmoke !important;
+    transition: ease-out 1s;
+}
+
+nav
+{
+    background-color: black !important;
+    padding: 15px !important;
+}
+
+nav *
+{
+    transition-duration: 1s;
+    color: whitesmoke !important;
+}
+
+#searching
+{
+    color: white;
+    background-color: transparent;
+    margin: 0 !important;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#searching:hover, #search:focus
+{
+    background-color: green;
+}
+
+#search
+{
+    margin: 0 !important;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: transparent;
+}
+
+.open#reg-login a.dropdown-toggle
+{
+    background-color: transparent !important;
+    box-shadow: 0 0 3px 1px whitesmoke;
+}
+.open .dropdown-menu
+{
+    box-shadow: 0 0 3px 1px whitesmoke;
+}
+
+.warning
+{
+    box-shadow: 0 0 1px 3px red;
+}
+
+input:focus
+{
+    background-color: brown !important;
+}
